@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  /* High-vibrancy primary signature brand color */
+  --color-brand-purple: #6366F1;
+  /* Rich interaction state modifier */
+  --color-brand-deepPurple: #4F46E5;
+  /* Clean premium paper surface canvas token */
+  --color-brand-cardBg: #FFFFFF;
+  /* Neutral smooth canvas backdrop contrast layer */
+  --color-brand-bgLight: #F8F9FA;
+  /* Deep contrasting title headline value */
+  --color-brand-textDark: #0F172A;
+  /* Softened body paragraph text layout slate */
+  --color-brand-textMuted: #64748B;
+
+  /* Premium crisp digital interfaces typography */
+  --font-sans: "Plus Jakarta Sans", "Inter", sans-serif;
+  
+  /* Core layout marquee utility animations */
+  --animate-marquee: marquee 25s linear infinite;
+
+  @keyframes marquee {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-50%); }
+  }
+}
+
+@layer base {
+  body {
+    background-color: var(--color-brand-bgLight);
+    color: var(--color-brand-textDark);
+    font-family: var(--font-sans);
+  }
+}
+
+/* Custom smooth fade-in animation utility */
+.animate-fade-in {
+  animation: fadeIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
