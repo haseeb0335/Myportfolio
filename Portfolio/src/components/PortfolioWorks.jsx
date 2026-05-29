@@ -3,6 +3,8 @@ import BakeryWeb from '../assets/BakeryWeb.png';
 import SchoolManagement from '../assets/SMS.png';
 import CoffeeShop from '../assets/Coffeeshop.png';
 import Restaurant from '../assets/img3.png';
+import Bakeryimg from '../assets/img4.png';
+import RealEstate from '../assets/img5.png';
 
 export default function PortfolioWorks() {
   const [filter, setFilter] = useState('All');
@@ -44,6 +46,24 @@ export default function PortfolioWorks() {
       img: Restaurant,
       liveLink: "https://leafy-capybara-7a2ade.netlify.app/",
       githubLink: "https://github.com/haseeb0335/Restaurant-web"
+    },
+     {
+      title: "Restaurant website-2",
+      category: "Web Design",
+      tech: "React JS • Tailwind CSS" ,
+      desc: "This design is taken from Pinterest and implemented with React and Tailwind CSS to create a visually appealing and user-friendly experience for both customers and coffee shop staff. It features a modern, responsive storefront layout that highlights the coffee shop's offerings, along with an intuitive navigation system for easy browsing.",
+      img: Bakeryimg,
+      liveLink: "https://bakery-web-2-cjl5ineyp-h03352503620-5431s-projects.vercel.app/",
+      githubLink: "https://github.com/haseeb0335/Bakery-web-2"
+    },
+     {
+      title: "Real Estate website",
+      category: "Web Design",
+      tech: "React JS • Tailwind CSS" ,
+      desc: "This design is taken from Pinterest and implemented with react and Tailwind CSS to create a visually appealing and user-friendly experience for both customers and coffee shop staff. It features a modern, responsive storefront layout that highlights the coffee shop's offerings, along with an intuitive navigation system for easy browsing.",
+      img: RealEstate,
+      liveLink: "https://real-estate-web-three-rho.vercel.app/",
+      githubLink: "https://github.com/haseeb0335/Real-Estate-web"
     }
   ];
 
