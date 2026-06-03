@@ -5,6 +5,11 @@ import CoffeeShop from '../assets/Coffeeshop.png';
 import Restaurant from '../assets/img3.png';
 import Bakeryimg from '../assets/img4.png';
 import RealEstate from '../assets/img5.png';
+import VogueWood from '../assets/img6.png';
+import HomeInterior from '../assets/img7.png';
+import NSBuilders from '../assets/img8.png';
+import RafiBuilders from '../assets/img9.png';
+import NÉRCESSO from '../assets/img10.png';
 
 export default function PortfolioWorks() {
   const [filter, setFilter] = useState('All');
@@ -19,6 +24,60 @@ export default function PortfolioWorks() {
       img: SchoolManagement, // Swap with your actual screenshot later
       liveLink: "https://sms-tinj.vercel.app",
       githubLink: "https://github.com/haseeb0335/SMS"
+    },
+     {
+      title: "NS Builders & Developers",
+      category: "Web Design",
+      tech: "React JS • Tailwind CSS" ,
+      desc: "This design is taken from Pinterest and implemented with react and Tailwind CSS to create NS builders & developers website. It features a modern, responsive storefront layout that highlights the real estate's offerings, along with an intuitive navigation system for easy browsing.",
+      img: NSBuilders,
+      liveLink: "https://ns-builders-developers.vercel.app/",
+      githubLink: "https://github.com/haseeb0335/NS-Builders-Developers"
+    },
+    {
+      title: "Rafi Builders & Developers",
+      category: "Web Design",
+      tech: "React JS • Tailwind CSS" ,
+      desc: "This design is taken from Pinterest and implemented with react and Tailwind CSS to create Rafi builders & developers website. It features a modern, responsive storefront layout that highlights the real estate's offerings, along with an intuitive navigation system for easy browsing.",
+      img: RafiBuilders,
+      liveLink: "https://ns-builders-developers-ou78.vercel.app/",
+      githubLink: "https://github.com/haseeb0335/Rafi-Builders"
+    },
+     {
+      title: "Real Estate website",
+      category: "Web Design",
+      tech: "React JS • Tailwind CSS" ,
+      desc: "This design is taken from Pinterest and implemented with react and Tailwind CSS to create a real estate website. It features a modern, responsive storefront layout that highlights the real estate's offerings, along with an intuitive navigation system for easy browsing.",
+      img: RealEstate,
+      liveLink: "https://real-estate-web-three-rho.vercel.app/",
+      githubLink: "https://github.com/haseeb0335/Real-Estate-web"
+    },
+     {
+      title: "vogue-wood-studios-interior",
+      category: "Web Design",
+      tech: "React JS • Tailwind CSS" ,
+      desc: "This design is taken from Pinterest and implemented with react and Tailwind CSS to home interior design website. It features a modern, responsive storefront layout that highlights the interior design's offerings, along with an intuitive navigation system for easy browsing.",
+      img: VogueWood,
+      liveLink: "https://vogue-wood-studios-interior.vercel.app/",
+      githubLink: "https://github.com/haseeb0335/VOGUE-WOOD-STUDIOS-INTERIOR"
+    },
+     {
+      title: "Home & Kitchen finds",
+      category: "Web Design",
+      tech: "React JS • Tailwind CSS" ,
+      desc: "This design is taken from Pinterest and implemented with react and Tailwwind css to create interior design website. It features a modern, responsive storefront layout that highlights the interior design's offerings, along with an intuitive navigation system for easy browsing.",
+      img: HomeInterior,
+      liveLink: "https://home-interior-web.vercel.app/",
+      githubLink: "https://github.com/haseeb0335/Home-Interior-web"
+    },
+      {
+      title: "NÉRCESSO",
+      category: "Web Design",
+      tech: "React JS • Tailwind CSS" ,
+      desc: "This design is taken from Pinterest and implemented with react and Tailwwind css to create NÉRCESSO website. It features a modern, responsive storefront layout that highlights the interior design's offerings, along with an intuitive navigation system for easy browsing.",
+      img: NÉRCESSO,
+      liveLink: "https://n-rcesso.vercel.app/",
+      githubLink: "https://github.com/haseeb0335/N-RCESSO"
     },
     {
       title: "Bakery Website",
@@ -42,29 +101,23 @@ export default function PortfolioWorks() {
       title: "Restaurant website",
       category: "Web Design",
       tech: "React JS • Tailwind CSS" ,
-      desc: "This design is taken from Pinterest and implemented with React and Tailwind CSS to create a visually appealing and user-friendly experience for both customers and coffee shop staff. It features a modern, responsive storefront layout that highlights the coffee shop's offerings, along with an intuitive navigation system for easy browsing.",
+      desc: "This design is taken from Pinterest and implemented with React and Tailwind CSS to create a restaurant website. It features a modern, responsive storefront layout that highlights the restaurant's offerings, along with an intuitive navigation system for easy browsing.",
       img: Restaurant,
       liveLink: "https://leafy-capybara-7a2ade.netlify.app/",
       githubLink: "https://github.com/haseeb0335/Restaurant-web"
     },
      {
-      title: "Restaurant website-2",
+      title: "Bakery website",
       category: "Web Design",
       tech: "React JS • Tailwind CSS" ,
-      desc: "This design is taken from Pinterest and implemented with React and Tailwind CSS to create a visually appealing and user-friendly experience for both customers and coffee shop staff. It features a modern, responsive storefront layout that highlights the coffee shop's offerings, along with an intuitive navigation system for easy browsing.",
+      desc: "This design is taken from Pinterest and implemented with React and Tailwind CSS to create a visually appealing and user-friendly experience for both customers and restaurant staff. It features a modern, responsive storefront layout that highlights the restaurant's offerings, along with an intuitive navigation system for easy browsing.",
       img: Bakeryimg,
       liveLink: "https://bakery-web-2-cjl5ineyp-h03352503620-5431s-projects.vercel.app/",
       githubLink: "https://github.com/haseeb0335/Bakery-web-2"
     },
-     {
-      title: "Real Estate website",
-      category: "Web Design",
-      tech: "React JS • Tailwind CSS" ,
-      desc: "This design is taken from Pinterest and implemented with react and Tailwind CSS to create a visually appealing and user-friendly experience for both customers and coffee shop staff. It features a modern, responsive storefront layout that highlights the coffee shop's offerings, along with an intuitive navigation system for easy browsing.",
-      img: RealEstate,
-      liveLink: "https://real-estate-web-three-rho.vercel.app/",
-      githubLink: "https://github.com/haseeb0335/Real-Estate-web"
-    }
+    
+    
+     
   ];
 
   // Dynamically maps out categories based on your image_6f5587.jpg reference layout
