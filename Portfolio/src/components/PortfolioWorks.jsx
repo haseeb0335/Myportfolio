@@ -10,6 +10,8 @@ import HomeInterior from '../assets/img7.png';
 import NSBuilders from '../assets/img8.png';
 import RafiBuilders from '../assets/img9.png';
 import NÉRCESSO from '../assets/img10.png';
+import PlantTree from '../assets/img11.png';
+import HKbuilders from '../assets/img12.png';
 
 export default function PortfolioWorks() {
   const [filter, setFilter] = useState('All');
@@ -42,6 +44,15 @@ export default function PortfolioWorks() {
       img: RafiBuilders,
       liveLink: "https://ns-builders-developers-ou78.vercel.app/",
       githubLink: "https://github.com/haseeb0335/Rafi-Builders"
+    },
+     {
+      title: "HK Builders & Developers",
+      category: "Web Design",
+      tech: "React JS • Tailwind CSS" ,
+      desc: "This design is taken from Pinterest and implemented with react and Tailwind CSS to create Rafi builders & developers website. It features a modern, responsive storefront layout that highlights the real estate's offerings, along with an intuitive navigation system for easy browsing.",
+      img: HKbuilders,
+      liveLink: "https://6a2468651f4734ebbdd41dd5--tourmaline-selkie-bfd796.netlify.app/",
+      githubLink: "https://github.com/haseeb0335/HK-Builders"
     },
      {
       title: "Real Estate website",
@@ -78,6 +89,15 @@ export default function PortfolioWorks() {
       img: NÉRCESSO,
       liveLink: "https://n-rcesso.vercel.app/",
       githubLink: "https://github.com/haseeb0335/N-RCESSO"
+    },
+     {
+      title: "PlantTree-Nursery-Home",
+      category: "Web Design",
+      tech: "React JS • Tailwind CSS" ,
+      desc: "This design is taken from Pinterest and implemented with react and Tailwwind css to create NÉRCESSO website. It features a modern, responsive storefront layout that highlights the interior design's offerings, along with an intuitive navigation system for easy browsing.",
+      img: PlantTree,
+      liveLink: "https://plant-tree-nursery-home.vercel.app/",
+      githubLink: "https://github.com/haseeb0335/PlantTree-Nursery-Home"
     },
     {
       title: "Bakery Website",
